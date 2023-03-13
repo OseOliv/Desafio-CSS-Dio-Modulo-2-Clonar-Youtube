@@ -1,0 +1,152 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+body {
+    background: rgb(255, 255, 255);
+}
+.menu {
+    display: flex;
+    height: 56px;
+    padding: 0 18px;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+#menu1 {
+    display: flex;
+    gap: 35px;
+    align-items: baseline;
+}
+.menuicone {
+    margin-top: 2px;
+}
+form {
+    display: flex;
+}
+#search {
+    width: 348px;
+    height: 40px;
+    border: 1px solid black;
+}
+#button-search {
+    height: 40px;
+    width: 57px;
+    cursor: pointer;
+    background-color: #F8F8F8;
+    border: 1px solid black;   
+}
+#menu3 {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.avataricone {
+    width: 34px;
+    border-radius: 50%;
+}
+main {
+    display: flex;
+    margin: 27px 27px 0 75px;
+    justify-content: center;
+}
+section {
+    margin-right: 27px;
+}
+aside {
+    width: 372px;
+}
+h1 {
+    margin-top: 8px;
+}
+.videoframeinfo {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.wravatar {
+    border-radius: 50%;
+}
+.info1 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.nomedocanal p {
+    font-weight: bold;
+}
+.nomedocanal p span {
+    color: #515151;
+    font-weight: lighter;    
+}
+.subsc {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.info3 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+.info4 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+.info5 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+.info6 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.visu {
+    padding-top: 20px;
+    font-weight: bold;
+}
+.desc{
+    max-width: 746px;
+    color: #515151;
+    padding-top: 15px
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.roll{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.outrosvideos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.outrosvideos h2 {
+    font-size: medium;
+
+}
+.outrosvideos p {
+    font-size: small;
+    font-weight: 300;
+}
